@@ -86,7 +86,7 @@ _ _
 
 **Consulta:**
 ```prolog
-resolver_sudoku([[1, 0], [0, 0]], Solucao).
+resolver_sudoku_2x2([[1, 0], [0, 0]], Solucao).
 ```
 
 **Saída:**
@@ -110,7 +110,7 @@ _ _ _
 
 **Consulta:**
 ```prolog
-resolver_sudoku([[1, 0, 0], [0, 0, 0], [0, 0, 0]], Solucao).
+resolver_sudoku_3x3([[1, 0, 0], [0, 0, 0], [0, 0, 0]], Solucao).
 ```
 
 **Saída:**
