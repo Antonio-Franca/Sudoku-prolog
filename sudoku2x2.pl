@@ -44,7 +44,7 @@ completar_matriz([LinhaInicial|RestoInicial], [LinhaCompletada|RestoCompletado])
     completar_matriz(RestoInicial, RestoCompletado).
 
 % Resolvendo o Sudoku 2x2 usando DFS
-resolver_sudoku(MatrizInicial, Matriz_Solucionada) :-
+resolver_sudoku_2x2(MatrizInicial, Matriz_Solucionada) :-
     % Gerar todas as combinações possíveis para preencher as células vazias
     completar_matriz(MatrizInicial, Matriz_Solucionada),
     % Verificar se a matriz gerada é válida
